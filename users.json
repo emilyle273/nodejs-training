@@ -1,0 +1,26 @@
+[
+  {
+    "id": "user-1",
+    "name": "Bitch",
+    "age": 30,
+    "job": "worker"
+  },
+  {
+    "id": "user-2",
+    "name": "Daniel",
+    "age": 20,
+    "job": "student"
+  },
+  {
+    "id": "user-3",
+    "name": "Daniel",
+    "age": 25,
+    "job": "engineer"
+  },
+  {
+    "id": "user-4",
+    "name": "Maria",
+    "age": 45,
+    "job": "doctor"
+  }
+]
