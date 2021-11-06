@@ -9,7 +9,7 @@ const PORT = 3000
 const app = express()
 
 app.set("json spaces", 4)
-app.get("/:id", (req, res) => {
+app.get("/tasks", (req, res) => {
   fs.readFile("users.json", (err, data) => {
     console.log("err", err)
     if(err) {
@@ -35,7 +35,7 @@ app.get("/:id", (req, res) => {
   })
 })
 
-consign().include("routes").into(app)
+consign().include('models').then("routes").into(app)
 
 app.listen(PORT, () => {
   console.log(`Listening: PORT: ${PORT}`)
